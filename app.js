@@ -5,7 +5,7 @@ const listaTweets = document.getElementById('lista-tweet');
 
 eventListener();
 
-
+//eventos
 function eventListener() {
     //Evento Click Btn Guardar
     document.getElementById('formulario').addEventListener('submit', agregarTweet);
