@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Aprendiendo JavaScript</h1>
+
+        <form action="#" id="formulario">
+            <div class="form-group">
+                <label for="tweet">tweets</label>
+                <input type="text" class="form-control-sm" id="tweet" aria-describedby="emailHelp"
+                    placeholder="Nuevo Tweet">
+            </div>    
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+        
+        <!-- div para inner desde app.js -->
+        <div id="app">
+            <div class="row">
+                <div class="col-8">
+                    <h2 class="mt-2 text-info">Mis Tweets</h2>
+                    <div>
+                        <div class="row">
+                           <div class="col-12" id="lista-tweet">
+
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>    
+    <script src="https://kit.fontawesome.com/2df9d02185.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
